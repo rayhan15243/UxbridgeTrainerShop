@@ -1,0 +1,33 @@
+/* CSS for product page */
+
+/* template for all the images in the product pages */
+.pro_pic {
+	float: left; /* floats images to the left */
+	width:170px; /* width of the template */
+    padding: 4px; /* padding all round */
+}
+
+/* template for the description of each product */
+.pro_description {
+	float: left; /* floats to the left, alongside .pro_description */
+	color: #353535; /* the text colour within .pro_description */
+	margin-left: 11%; /* margin away from the left */
+	margin-bottom: 12px; /* margin away from the bottom */
+	border: 1px dotted;  /* border state */
+	padding: 13px 0px 13px 12px; /* padding top, bottom, left */
+	width: 430px; /* width of .pro_description */
+}
+
+/* product titles for each product */
+.product_titles  {
+	color:#78AB46; /* text colour of each .product_titles */
+	font-size:30px; /* text size of each .product_titles */
+	padding-left:5px; /* left padding */
+	margin-bottom:15px; /* margin away from the bottom */
+}
+
+/* title of each trainer brand */
+h4 {
+	color:#78AB46; /* text colour for h4 tag in each of the product pages */
+	font-size: 20px; /* text size of h4 */
+}

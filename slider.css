@@ -1,0 +1,54 @@
+/* CSS for Slider */
+
+/* slider template */
+#slider {
+	margin: 0px auto; /*centres the #slider box */
+	width:600px; /* width of #slider */
+	height:250px; /* height of #slider */
+	border:3px solid black; /* border state */
+	border-radius: 5px;	
+}
+
+/* left button of the slider */
+#left_button {
+	width:60px; /* width of #left_button */
+	height:55px; /* height of #left_button */
+	padding-bottom:13px; /* padding space in the bottom */
+	padding-left:2px; /* padding space to the left */
+	padding-right:5px; /* padding space to the right */
+	display:inline-block; /* displays the #left_button horizontally */
+	border-radius: 50%;
+	border:1px solid;
+	text-align:center; /* aligns the text symbol inside #left_button to the centre */
+	text-decoration:none; /* removes the underline */
+	margin-left:40%; /* appropriately aligns the #left_button away from the left */
+	font-size:60px; /* font size of the text symbol */
+	color:black; /* colour of the text symbol */
+	font-family:Didot; /* font type of the text symbol */
+	font-weight:bold; /* font weight of the text symbol */
+}
+
+/* the state of the button when the user hovers over it */
+#left_button:hover {
+	color:#78AB46; /* the colour of the #left_button will change when the user hovers over */
+}
+
+/* right button of the slider. Very similar styling used in the #left_button */
+#right_button {
+    width:60px;
+	height:55px;
+	padding:0px 15px 0px 15px;
+	border-radius: 50%;
+	border:1px solid;
+	text-align:center;
+	text-decoration:none;
+	font-size:60px;
+	color:black;
+	font-family:Didot;
+	font-weight:bold;
+}
+
+/* the same state as the #left_button when the user hovers over it */
+#right_button:hover {
+	color:#78AB46;
+}

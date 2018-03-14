@@ -1,0 +1,89 @@
+/* CSS for Contact Form */
+
+/* id targeting the contact form */
+#contact_form {
+	width: 350px; /* width of contact form */
+	border: 1px solid  black; /* border thickness, style and colour for the contact form */
+	float: left; /* shifting across the left side of the web-page */
+	border-radius: 7px; /* rounded border */
+	padding: 10px 25px 0px 9px; /* space inside the contact form */
+}
+
+/* id targeting the name input box */
+#name {
+	width: 350px; /* width of the name input box */
+	margin-top:12px; /* margin away from the top */
+	border: 2px solid black; /* border thickness, style and colour for the name input box*/
+	color:black; /* the font  colour of the name input box */
+	font-family:Rockwell; /* font type for the name input box */
+	padding:5px 0px 5px 5px; /* space inside the name input box */
+	font-size:20px; /* font  size of the name input box */
+	border-radius: 5px; 
+	height: 25px; /* height of the name input box */
+	margin-bottom: 15px; /* margin away from the bottom */
+}
+
+/* id targeting the email address input box */
+#email_address {
+
+	margin-top: 12px; /* margin away from the top  */
+	padding:5px 0px 5px 5px; /* space inside the email address input box */
+    border: 2px solid black; /* border thickness, style and colour for the email address input box*/
+	font-size:20px; /* font size of the email address input box */
+	color: black; /* the font  colour of the email address input box */
+	font-family:Rockwell; /* font type for the email address input box */
+	height: 25px; /* height of the email address input box */
+	border-radius: 5px; 
+	width: 350px; /* width of the email address input box */
+	margin-bottom: 15px; /* margin away from the bottom */
+
+}
+
+/* id targeting the message textarea */
+#message {
+	margin-top: 12px; /*margin away from the top */
+	font-family:Rockwell; /* font style for the message textarea */
+	border: 2px solid black; /* border thickness, style and colour for the message textarea */
+	font-size:14px; /* font size of the message textarea */
+	border-radius: 5px; 
+	width: 355px; /* width of the message textarea */
+	height: 120px; /* height of the message textarea */
+	color:black; /* the font  colour of the message textarea */
+}
+
+/* id targeting the submit button */
+#submit {
+	width: 130px; /* width of the submit button */
+	height: 35px; /* height of the submit button*/
+	border: 3px solid black; /* border thickness, style and colour for the submit button */
+	border-radius: 5px; 
+	margin: 12px 0px 12px 0px; /* margin away from the top, bottom, left */
+	color: black; /* the font colour of the submit button */
+}
+
+/* targeting the h2 element inside the contact form in the contact page*/
+h2 {
+	margin-bottom: 15px; /* margin away from the bottom */
+	color:#78AB46; /* font  colour of the h2 element */
+}
+
+/* targeting the label elements of the contact form in the contact form */
+label {
+	color: black; /* font colour of the label elements*/
+}
+
+/* id targeting the article tag containing the contact information*/
+#contact_info {
+	padding-top: 7px; /* top padding of #contact_info */
+	padding-left:7px; /* left padding of #contact_info */
+	padding-bottom:15px; /* bottom padding of #contact_info */
+	font-size:15px; /* font size targeting the text within #contact_info */
+	color: black; /* font colour targeting the text within #contact_info */
+	font-family: Rockwell; /* font type targeting the text within #contact_info */
+	border: 1px solid black; /* border thickness, style and colour for the #contact_info within article tag */
+	border-radius: 7px;
+	float: left;
+	margin-left: 20px;  /* margin away from the left  */
+	width: 280px;  /* width of #contact_info */
+}
+

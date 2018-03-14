@@ -1,0 +1,150 @@
+/* CSS for webpage layout */
+
+/*universal selector targeting every element in a document */
+
+* { 
+	margin: 0 auto; /* centres the webpage */
+	padding: 0px; /* no padding inside */
+}
+
+/* div wrapper containing the webpage content */
+#wrapper {
+	font-family: Georgia, Serif; /* two font types for the website pages. If the font Georgia doesn't load, then Serif will be loaded */
+	width: 1000px; /*width of the wrapper */
+}
+ 
+/* header defining the title of the webpage */
+header {
+	width: 1000px;	/* width of the header element */
+} 
+
+/* paragraph tag within the header element */
+header p {
+	font-style: italic; /* font style of paragraph tag */
+	color:#78AB46; /* font colour of paragraph tag */
+	font-weight: bold; /* font weight of paragraph tag */
+}
+
+/* advertisement banner for the index page */
+
+#banner1 {
+	border: 1px solid black; /*  border thickness, style and colour for #banner1*/
+	border-radius:5px;`
+	width:300px;  /* width of #banner1 */
+	height:140px; /* height of  #banner1*/
+	margin-top:50px; /* margin away from the top of #banner1*/
+	margin-left: 50px; /* margin away from the left of #banner1*/
+	float:left;
+}
+
+/*  second advertisement banner for the index page */
+#banner2 {
+	border: 1px solid black; /*  border thickness, style and colour for #banner2*/
+	border-radius:5px;
+	width:300px; /*  width of #banner2 */
+	height:140px;  /*  height of #banner2 */
+	margin-top:50px;  /* margin away from the top */
+	margin-left: 3px;  /* margin away from the left*/
+	display:inline-block;  /* how the banner should be displayed. Inline displays it horizontally.*/
+}
+
+/*  third advertisement banner for the index page */
+#banner3 {
+	border: 3px dashed #a80000; /*  border thickness, style and colour for #banner3*/
+	width:610px; /*  width of #banner3 */
+	height:200px; /* height of #banner3 */
+	margin-top:40px; /* margin away from the top */
+	margin-left: 50px; /* margin away from the left */
+	display:inline-block; /* how the banner should be displayed. Inline displays it horizontally.*/
+}
+
+
+/* Linking the a tag within the h1 tag to the homepage */
+h1 a {
+
+	text-decoration: none; /* gets rid of the underline under the link */
+	color:#78AB46; /* colour of the h1 tag */
+	font-family: Rockwell; /* font type of h1 */
+	font-size: 55px; /* font size of h1 */
+	font-weight: normal; /* weight of h1 */
+	font-style: italic;	/* font style of h1 */
+}
+
+/* section tag containing the main content of each page */
+section {
+	width: 700px; /* width of section */
+	float: left;
+	padding: 7px 7px 7px 0px; /* space inside section. Top, right, bottom, left padding are defined.*/
+	margin-top: 30px; /* margin away from the top  */
+	margin-bottom: 50px; /* margin away from the bottom */
+}
+
+/* Aside tag containing the opening times */
+aside {
+	width: 250px; /* width of aside */
+	border:1px solid black;  /*  border thickness, style and colour for aside*/
+	padding:14px;  /*  space inside aside */
+	font-family: Rockwell; /*  font type for the text inside aside*/
+	border-radius: 5px;
+	color:black;  /*  font colour for the text inside aside*/
+	float:right; /* floated to the right side of the webpage */
+	margin-top: 35px;  /* margin away from the top  */
+	margin-bottom: 7px; /* margin away from the bottom */
+}
+
+/* aside h3 title within aside for the opening times table */
+aside h3 {
+	text-align: center; /* aligns the aside h3 text to the centre */
+	color:black; /* colour of aside h3 */
+	font-family: Rockwell; /* font type of aside h3 */
+	margin-bottom: 15px; /* margin away from the bottom */
+}
+
+
+/* bottom of the webpage*/
+footer {
+	width: 1000px; /* width of footer */
+	clear: both; /* prevents footer from being floated. As there is some space next to aside, an semantic element  takes that remaining space , but by using the clear property, it will prevent that element from using that space.*/
+	border: 1px solid; /*  border thickness, style and colour for footer*/
+	padding:5px 5px 5px 5px; /* padding inside footer */
+	border-radius: 5px 5px 0px 0px; /* rounded corners top, right, bottom, left. */
+	
+}
+
+/* paragraph tag inside footer */
+footer p {
+	text-align: center;	/* centres the text within the paragraph tag */
+}
+
+/* columns inside #opening_times table */
+#opening_times td {
+	width: 190px; /* width of each td */
+	text-align: left; /* text inside each td aligned to the left */
+}
+
+/* rows inside #opening_times table */
+#opening_times tr {
+	padding: 0px 5px 0px 5px; /* padding inside each tr */
+}
+
+/* advertisement banner below the navigation bar */
+#banner {
+	padding: 4px; /* padding inside #banner */
+	font-size: 20px; /* the font size inside #banner */
+	font-family: Rockwell; /* font type for the text inside #banner */
+	color: #78AB46; /* colour of the text inside #banner */
+	border: 2px solid black; /*  border thickness, style and colour for #banner*/
+	border-radius: 12px;
+	margin-top: 25px; /* margin away from the top*/
+}
+
+/* the unordered list inside #banner */
+#banner ul li{
+
+	list-style-type: none; /* removes bullet points */
+	display:inline-block; /* displays horizontally */
+	margin: 3px 6% 3px 6%; /* margin all around. For left and right margin, a percent is used as there is a lot of margin space there. */
+
+}
+
+

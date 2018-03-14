@@ -1,0 +1,41 @@
+/* CSS for main navigation */
+
+/* nav tag for every webpage */
+nav {
+	width: 1000px; /* width of nav */
+	margin-top: 20px; /* margin away from the top  */
+} 
+
+/* the unordered list inside nav */
+nav ul {
+	list-style-type: none; /* removes bullet points */
+
+}
+
+/* li within unordered list inside nav */
+nav  li {
+	display: inline-block; /* display each li inside nav horizontally */
+}
+
+/* class assigned to each link in the navigation bar */
+.main_links {
+	color:black; /* text colour of each link in the nav */
+	font-size: 30px; /* font size of each link in the nav */
+	font-family: Rockwell; /* font type of each link in the nav */
+	padding-top:3px; /* top padding*/
+	padding-right:10px; /*right padding */
+	padding-left: 10px; /*left padding */
+	padding-bottom: 5px;/*bottom padding*/
+	text-decoration: none; /* removes the underline from each link */
+	margin: 0px 20px 0px 0px; /* margin away from the right*/
+
+}
+
+/* what state will the links be when the user hovers over it. Use of pseudo class 'hover'*/
+.main_links:hover {
+	color:#F9F9F9; /* the link will change to this colour when the user hovers over it */
+	background-color: #78AB46; /* the background colour will change to this colour when the user hovers over it */
+	border: 3px solid black; /*the border state when the user hovers over it */
+	border-radius: 10px 0px 10px 0px;	/* rounded borders for top, bottom, left*/
+}
+
